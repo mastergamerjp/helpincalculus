@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(190, 190, 190);
+
+    color: white;
+}
+
+
+input{
+    background-color: inherit;
+    border-width: 0 0 1px 0;
+    border-color: white;
+
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    margin: 5px;
+    padding: 15px;
+    color: white;
+
+    width: 150px;
+}
+
+.math{
+    background-color: #ffc107;
+}
+
+.fisica{
+    background-color: #2e7d32;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    width: 90%;
+    margin: 5px;
+    padding: 15px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 0 0 15px 0;
+}
+
+.resultado{
+    margin: 30px;
+}
+
+.btn{
+    color: white;
+    border: white solid 1px;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+}
+
+.btn:hover{
+    opacity: 75%;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}

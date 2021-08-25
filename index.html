@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fórmulas</title>
+        <link rel="stylesheet" href="materias.css">
+        <!--MATEMÁTICA-->
+        <script src="math-pitagoras.js"></script>
+
+        <!--FÍSICA-->
+    </head>
+    <body>
+        <header><h1>Cálculos</h1></header>
+        <nav>
+            <div class="menu math">
+                <h2>Matemática</h2>
+                <ul class="list math_List">
+                    <li><a class="link math_Link" href="">Pitágoras</a></li>
+                </ul>
+            </div>
+            <div class="menu fisica">
+                <h2>Física</h2>
+                <ul class="list fisica_List">
+                    <li><a class="link fisica_Link" href="">Força peso</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="math">
+            <h3>Pitágoras</h3>
+            <ul>
+                <li>
+                    <label for="cateto1">Hipotenusa:</label>
+                    <input type="number" name="hipotenusa" id="hipotenusaPitagoras">
+                </li>
+                <li>
+                    <label for="cateto1">Cateto B:</label>
+                    <input type="number" name="catetoB" id="catetoB">
+                </li>
+                <li>
+                    <label for="cateto1">Cateto C:</label>
+                    <input type="number" name="catetoC" id="catetoC">
+                </li>
+                <li>
+                    <input class="math btn" type="button" value="Calcular" onclick="pitagoras()">
+                </li>
+            </ul>
+            <div class="resolucao resolucaoPitagoras">
+                <p></p>
+            </div>
+            <div class="resultado resultadoPitagoras">
+                <p></p>
+            </div>
+        </section>
+    </body>
+</html>
