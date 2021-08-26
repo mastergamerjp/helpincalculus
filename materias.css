@@ -26,10 +26,14 @@ nav{
 
 .menu{
     margin: 5px;
-    padding: 15px;
+    padding: 10px;
     color: white;
 
     width: 150px;
+
+    border-radius: 5px;
+
+    box-shadow: 5px 5px 30px rgba(70, 70, 70, 0.637) /*rgba(80, 80, 80, 0.336)*/;
 }
 
 .math{
@@ -39,6 +43,16 @@ nav{
 .fisica{
     background-color: #2e7d32;
 }
+
+.div_explain{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(88, 88, 88, 0.329);
+    max-width: 500px;
+}
+
+
+
 
 .link{
     color: white;
@@ -50,6 +64,11 @@ section{
     margin: 5px;
     padding: 15px;
     color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 5px 5px 30px rgba(70, 70, 70, 0.637) /*rgba(80, 80, 80, 0.336)*/;
 }
 
 ul{
@@ -78,4 +97,12 @@ li{
     cursor: pointer;
 
     transition: all 0.2s ease;
+}
+
+
+@media screen and (min-width: 600px) {
+    section{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }

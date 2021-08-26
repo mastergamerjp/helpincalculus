@@ -8,49 +8,117 @@
         <link rel="stylesheet" href="materias.css">
         <!--MATEMÁTICA-->
         <script src="math-pitagoras.js"></script>
+        <script src="math-bhaskara.js"></script>
 
         <!--FÍSICA-->
     </head>
     <body>
+        <!--MODELO-->
+
+        <!--
+            <section class="MATÉRIA">
+                <div class="div_data">
+                    <h3 id="CONTEUDO"></h3>
+                    <ul>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            <input class="MATÉRIA btn" type="button" value="Calcular" onclick="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="div_explain">
+                    <div class="resolucao resolucaoCONTEUDO">
+                        <p></p>
+                    </div>
+                    <div class="resultado resultadoCONTEUDO">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+        -->
+
         <header><h1>Cálculos</h1></header>
         <nav>
             <div class="menu math">
                 <h2>Matemática</h2>
                 <ul class="list math_List">
-                    <li><a class="link math_Link" href="">Pitágoras</a></li>
+                    <li><a class="link math_Link" href="#Pitágoras">Pitágoras</a></li>
+                    <li><a class="link math_Link" href="#Bhaskara">Bhaskara</a></li>
                 </ul>
             </div>
             <div class="menu fisica">
                 <h2>Física</h2>
                 <ul class="list fisica_List">
-                    <li><a class="link fisica_Link" href="">Força peso</a></li>
+                    <li><a class="link fisica_Link" href="">Em breve</a></li>
                 </ul>
             </div>
         </nav>
         <section class="math">
-            <h3>Pitágoras</h3>
-            <ul>
-                <li>
-                    <label for="cateto1">Hipotenusa:</label>
-                    <input type="number" name="hipotenusa" id="hipotenusaPitagoras">
-                </li>
-                <li>
-                    <label for="cateto1">Cateto B:</label>
-                    <input type="number" name="catetoB" id="catetoB">
-                </li>
-                <li>
-                    <label for="cateto1">Cateto C:</label>
-                    <input type="number" name="catetoC" id="catetoC">
-                </li>
-                <li>
-                    <input class="math btn" type="button" value="Calcular" onclick="pitagoras()">
-                </li>
-            </ul>
-            <div class="resolucao resolucaoPitagoras">
-                <p></p>
+            <div class="div_data">
+                <h3 id="Pitágoras">Pitágoras</h3>
+                <ul>
+                    <li>
+                        <label for="cateto1">Hipotenusa:</label>
+                        <input type="number" name="hipotenusa" id="hipotenusaPitagoras">
+                    </li>
+                    <li>
+                        <label for="cateto1">Cateto B:</label>
+                        <input type="number" name="catetoB" id="catetoB">
+                    </li>
+                    <li>
+                        <label for="cateto1">Cateto C:</label>
+                        <input type="number" name="catetoC" id="catetoC">
+                    </li>
+                    <li>
+                        <input class="math btn" type="button" value="Calcular" onclick="pitagoras()">
+                    </li>
+                </ul>
             </div>
-            <div class="resultado resultadoPitagoras">
-                <p></p>
+            <div class="div_explain">
+                <div class="resolucao resolucaoPitagoras">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoPitagoras">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="math">
+            <div class="div_data">
+                <h3 id="Bhaskara">Bhaskara</h3>
+                <ul>
+                    <li>
+                        <label for="a">Insira o valor de a:</label>
+                        <input type="number" name="a" id="a">
+                    </li>
+                    <li>
+                        <label for="b">Insira o valor de b:</label>
+                        <input type="number" name="b" id="b">
+                    </li>
+                    <li>
+                        <label for="c">Insira o valor de c:</label>
+                        <input type="number" name="c" id="c">
+                    </li>
+                    <li>
+                        <input class="math btn" type="button" value="Calcular" onclick="bhaskara()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoBhaskara">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoBhaskara">
+                    <p></p>
+                </div>
             </div>
         </section>
     </body>
