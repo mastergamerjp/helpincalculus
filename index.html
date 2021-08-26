@@ -9,6 +9,7 @@
         <!--MATEMÁTICA-->
         <script src="math-pitagoras.js"></script>
         <script src="math-bhaskara.js"></script>
+        <script src="math-funcaoquadratica.js"></script>
 
         <!--FÍSICA-->
     </head>
@@ -52,6 +53,7 @@
                 <ul class="list math_List">
                     <li><a class="link math_Link" href="#Pitágoras">Pitágoras</a></li>
                     <li><a class="link math_Link" href="#Bhaskara">Bhaskara</a></li>
+                    <li><a href="#funcaoQuadratica">Função Quadrática</a></li>
                 </ul>
             </div>
             <div class="menu fisica">
@@ -117,6 +119,45 @@
                     <p></p>
                 </div>
                 <div class="resultado resultadoBhaskara">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="math">
+            <div class="div_data">
+                <h3 id="funcaoQuadratica">Função Quadrática</h3>
+                <ul>
+                    <li>
+                        <label for="aFQ">Insira o valor de a:</label>
+                        <input type="number" name="aFQ" id="aFQ">
+                    </li>
+                    <li>
+                        <label for="bFQ">Insira o valor de b:</label>
+                        <input type="number" name="bFQ" id="bFQ">
+                    </li>
+                    <li>
+                        <label for="cFQ">Insira o valor de c:</label>
+                        <input type="number" name="cFQ" id="cFQ">
+                    </li>
+                    <li>
+                        <input class="math btn" type="button" value="Calcular" onclick="funcaoquadratica()">
+                    </li>
+                </ul>
+            </div>
+            <div class="div_explain">
+                <div class="resolucao resolucaoRaiz">
+                    <p></p>
+                </div>
+                <div class="resolucao resolucaoVertice">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoRaiz">
+                    <p></p>
+                </div>
+                <div class="resultado resultadoVertice">
+                    <p></p>
+                </div>
+                <div class="resultado analiseParabola">
                     <p></p>
                 </div>
             </div>
