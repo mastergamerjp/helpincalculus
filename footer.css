@@ -1,0 +1,17 @@
+footer span a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.637);
+    transition: all 0.2s ease;
+}
+
+footer span a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer{
+    line-height: 50px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(31, 31, 31, 0.596);
+}
